@@ -1,4 +1,4 @@
-# new-vue
+# vue3-multipage
 
 ## Project setup
 ```

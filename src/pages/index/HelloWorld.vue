@@ -1,12 +1,12 @@
-<template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <Button>nihao</Button>
-  </div>
+<template lang="pug">
+.hello
+  h1 {{msg}}
+  Button nihao
 </template>
 
 <script>
 import { Button } from 'ant-design-vue'
+
 export default {
   name: 'HelloWorld',
   components: {
